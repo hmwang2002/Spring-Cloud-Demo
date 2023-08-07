@@ -1,12 +1,4 @@
-server:
-  port: 8101
-
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/library?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-    username: root
-    password: Whm18051964286
-    driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: BorrowService
   cloud:
@@ -15,7 +7,7 @@ spring:
         # 配置Nacos注册中心地址
         server-addr: localhost:8848
         cluster-name: Nanjing
-    # 将loadbalancer的nacos支持开启，集成Nacos负载均衡
-    loadbalancer:
-      nacos:
-        enabled: true
+#    # 将loadbalancer的nacos支持开启，集成Nacos负载均衡
+#    loadbalancer:
+#      nacos:
+#        enabled: true
