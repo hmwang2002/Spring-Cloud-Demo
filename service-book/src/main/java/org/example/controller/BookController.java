@@ -20,4 +20,15 @@ public class BookController {
     public Book getBookById(@PathVariable("bid") int bid) {
         return bookService.getBookById(bid);
     }
+
+    @RequestMapping("/book/remain/{bid}")
+    public int bookRemain(@PathVariable("bid") int bid){
+        return bookService.getRemain(bid);
+    }
+
+    @RequestMapping("/book/borrow/{bid}")
+    public boolean bookBorrow(@PathVariable("bid") int bid){
+        int remain = bookService.getRemain(bid);
+        return bookService.setRemain(bid, remain - 1);
+    }
 }

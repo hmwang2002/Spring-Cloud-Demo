@@ -1,0 +1,96 @@
+2023-08-10 10:19:07,241 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=4}
+
+2023-08-10 10:19:07,292 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=4}
+
+2023-08-10 10:45:23,075 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=4}
+
+2023-08-10 10:45:51,620 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=8}
+
+2023-08-10 10:45:51,671 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=4}
+
+2023-08-10 10:55:25,401 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=4}
+
+2023-08-10 10:55:25,450 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=4}
+
+2023-08-10 14:53:13,275 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}
+
+2023-08-10 14:53:26,215 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=6}
+
+2023-08-10 14:59:21,503 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}
+
+2023-08-10 15:05:33,895 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}
+
+2023-08-10 15:12:21,769 INFO [PUSH-SUCC] 12ms, all delay time 578ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:13:20,578 INFO [PUSH-SUCC] 15ms, all delay time 577ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:13:22,116 INFO [PUSH-SUCC] 12ms, all delay time 525ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:13:23,771 INFO [PUSH-SUCC] 11ms, all delay time 611ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:13:25,095 INFO [PUSH-SUCC] 10ms, all delay time 608ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:15:32,798 INFO [PUSH-SUCC] 2ms, all delay time 607ms for subscriber 192.168.202.1, Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2023-08-10 15:17:07,913 INFO [PUSH-SUCC] 11ms, all delay time 560ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:17:14,968 INFO [PUSH-SUCC] 4ms, all delay time 578ms for subscriber 192.168.202.1, Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2023-08-10 15:18:25,480 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=4}
+
+2023-08-10 15:18:25,530 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=4}
+
+2023-08-10 15:18:31,502 INFO [PUSH-SUCC] 16ms, all delay time 578ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:18:33,804 INFO [PUSH-SUCC] 12ms, all delay time 584ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:18:35,786 INFO [PUSH-SUCC] 14ms, all delay time 576ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:18:37,328 INFO [PUSH-SUCC] 11ms, all delay time 545ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:18:38,754 INFO [PUSH-SUCC] 13ms, all delay time 541ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:18:46,347 INFO [PUSH-SUCC] 3ms, all delay time 577ms for subscriber 192.168.202.1, Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=6}, originalSize=2, DataSize=2
+
+2023-08-10 15:18:46,678 INFO [PUSH-SUCC] 3ms, all delay time 530ms for subscriber 192.168.202.1, Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=6}, originalSize=2, DataSize=2
+
+2023-08-10 15:21:55,331 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=8}
+
+2023-08-10 15:21:55,382 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=8}
+
+2023-08-10 15:22:01,926 INFO [PUSH-SUCC] 12ms, all delay time 592ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:22:03,586 INFO [PUSH-SUCC] 14ms, all delay time 609ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:22:06,005 INFO [PUSH-SUCC] 11ms, all delay time 591ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:22:06,667 INFO [PUSH-SUCC] 11ms, all delay time 607ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:22:07,885 INFO [PUSH-SUCC] 13ms, all delay time 609ms for subscriber 192.168.202.1, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2023-08-10 15:22:21,521 INFO [PUSH-SUCC] 4ms, all delay time 580ms for subscriber 192.168.202.1, Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=10}, originalSize=2, DataSize=2
+
+2023-08-10 15:22:21,848 INFO [PUSH-SUCC] 3ms, all delay time 531ms for subscriber 192.168.202.1, Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=10}, originalSize=2, DataSize=2
+
+2023-08-10 15:39:02,090 INFO [PUSH] Task merge for Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=6}
+
+2023-08-10 15:39:02,619 INFO [PUSH-SUCC] 6ms, all delay time 530ms, SLA 529ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.202.1
+
+2023-08-10 15:39:02,620 INFO [PUSH-SUCC] 7ms, all delay time 531ms, SLA 530ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.202.1
+
+2023-08-10 15:39:02,628 INFO [PUSH-SUCC] 15ms, all delay time 539ms, SLA 538ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.202.1
+
+2023-08-10 15:39:02,635 INFO [PUSH-SUCC] 22ms, all delay time 546ms, SLA 545ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.202.1
+
+2023-08-10 15:39:02,636 INFO [PUSH-SUCC] 23ms, all delay time 547ms, SLA 546ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.202.1
+
+2023-08-10 15:39:04,340 INFO [PUSH-SUCC] 5ms, all delay time 601ms, SLA 601ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.202.1
+
+2023-08-10 15:39:04,340 INFO [PUSH-SUCC] 5ms, all delay time 601ms, SLA 601ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.202.1
+
+2023-08-10 15:39:04,340 INFO [PUSH-SUCC] 5ms, all delay time 601ms, SLA 601ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.202.1
+
+2023-08-10 15:39:04,340 INFO [PUSH-SUCC] 5ms, all delay time 601ms, SLA 601ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.202.1
+
+2023-08-10 15:39:04,340 INFO [PUSH-SUCC] 5ms, all delay time 601ms, SLA 601ms, Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.202.1
+

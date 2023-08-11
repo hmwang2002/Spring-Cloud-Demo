@@ -11,4 +11,5 @@ public class UserEntity {
     int uid;
     String name;
     String sex;
+    int bookCount;
 }

@@ -1,0 +1,484 @@
+2023-08-10 10:00:33,968 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2023-08-10 10:00:34,116 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2023-08-10 10:00:34,257 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2023-08-10 10:00:34,265 INFO The number of active nodes increment to 1.
+
+2023-08-10 10:00:34,923 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 0 to 4, cost 0 ms.
+
+2023-08-10 10:00:34,926 INFO Starts FSMCaller successfully.
+
+2023-08-10 10:00:34,935 INFO Loading snapshot, meta=last_included_index: 3
+last_included_term: 3
+peers: "192.168.202.1:7848"
+.
+
+2023-08-10 10:00:34,996 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> onSnapshotLoadDone, last_included_index: 3
+last_included_term: 3
+peers: "192.168.202.1:7848"
+
+
+2023-08-10 10:00:34,997 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> target priority value has changed from: 0, to: -1.
+
+2023-08-10 10:00:34,998 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 4 to 4, cost 0 ms.
+
+2023-08-10 10:00:35,003 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> init, term=3, lastLogId=LogId [index=3, term=3], conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 10:00:35,004 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> start vote and grant vote self, term=3.
+
+2023-08-10 10:00:35,013 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2023-08-10 10:00:35,013 INFO Save raft meta, path=D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=4, votedFor=192.168.202.1:7848, cost time=8 ms
+
+2023-08-10 10:00:35,013 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> become leader of group, term=4, conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 10:00:35,016 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2023-08-10 10:00:35,017 WARN RPC server is not started in RaftGroupService.
+
+2023-08-10 10:00:35,017 INFO Start the RaftGroupService successfully.
+
+2023-08-10 10:00:35,026 INFO onLeaderStart: term=4.
+
+2023-08-10 10:00:35,056 INFO The number of active nodes increment to 2.
+
+2023-08-10 10:00:35,090 INFO Creating new channel to: 192.168.202.1:7848.
+
+2023-08-10 10:00:35,094 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 0 to 4, cost 0 ms.
+
+2023-08-10 10:00:35,095 INFO Starts FSMCaller successfully.
+
+2023-08-10 10:00:35,096 INFO Loading snapshot, meta=last_included_index: 3
+last_included_term: 3
+peers: "192.168.202.1:7848"
+.
+
+2023-08-10 10:00:35,098 INFO Node <naming_instance_metadata/192.168.202.1:7848> onSnapshotLoadDone, last_included_index: 3
+last_included_term: 3
+peers: "192.168.202.1:7848"
+
+
+2023-08-10 10:00:35,098 INFO Node <naming_instance_metadata/192.168.202.1:7848> target priority value has changed from: 0, to: -1.
+
+2023-08-10 10:00:35,099 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 4 to 4, cost 0 ms.
+
+2023-08-10 10:00:35,099 INFO Node <naming_instance_metadata/192.168.202.1:7848> init, term=3, lastLogId=LogId [index=3, term=3], conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 10:00:35,100 INFO Node <naming_instance_metadata/192.168.202.1:7848> start vote and grant vote self, term=3.
+
+2023-08-10 10:00:35,102 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2023-08-10 10:00:35,103 INFO Save raft meta, path=D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=4, votedFor=192.168.202.1:7848, cost time=2 ms
+
+2023-08-10 10:00:35,103 INFO Node <naming_instance_metadata/192.168.202.1:7848> become leader of group, term=4, conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 10:00:35,103 WARN RPC server is not started in RaftGroupService.
+
+2023-08-10 10:00:35,103 INFO Start the RaftGroupService successfully.
+
+2023-08-10 10:00:35,104 INFO onLeaderStart: term=4.
+
+2023-08-10 10:00:35,106 INFO The number of active nodes increment to 3.
+
+2023-08-10 10:00:35,130 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 10:00:35,139 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 0 to 4, cost 1 ms.
+
+2023-08-10 10:00:35,140 INFO Starts FSMCaller successfully.
+
+2023-08-10 10:00:35,140 INFO Loading snapshot, meta=last_included_index: 3
+last_included_term: 3
+peers: "192.168.202.1:7848"
+.
+
+2023-08-10 10:00:35,141 INFO Node <naming_service_metadata/192.168.202.1:7848> onSnapshotLoadDone, last_included_index: 3
+last_included_term: 3
+peers: "192.168.202.1:7848"
+
+
+2023-08-10 10:00:35,141 INFO Node <naming_service_metadata/192.168.202.1:7848> target priority value has changed from: 0, to: -1.
+
+2023-08-10 10:00:35,142 INFO Node <naming_service_metadata/192.168.202.1:7848> init, term=3, lastLogId=LogId [index=3, term=3], conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 10:00:35,142 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 4 to 4, cost 0 ms.
+
+2023-08-10 10:00:35,143 INFO Node <naming_service_metadata/192.168.202.1:7848> start vote and grant vote self, term=3.
+
+2023-08-10 10:00:35,145 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2023-08-10 10:00:35,145 INFO Save raft meta, path=D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=4, votedFor=192.168.202.1:7848, cost time=2 ms
+
+2023-08-10 10:00:35,145 INFO Node <naming_service_metadata/192.168.202.1:7848> become leader of group, term=4, conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 10:00:35,145 WARN RPC server is not started in RaftGroupService.
+
+2023-08-10 10:00:35,146 INFO Start the RaftGroupService successfully.
+
+2023-08-10 10:00:35,146 INFO onLeaderStart: term=4.
+
+2023-08-10 10:00:35,301 INFO The channel 192.168.202.1:7848 is in state: READY.
+
+2023-08-10 10:00:35,301 INFO The channel 192.168.202.1:7848 has successfully established.
+
+2023-08-10 10:17:57,386 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2023-08-10 10:17:57,387 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_4.
+
+2023-08-10 10:17:57,387 INFO Renaming D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_4.
+
+2023-08-10 10:17:57,387 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot on windows.
+
+2023-08-10 10:17:57,387 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_3.
+
+2023-08-10 10:17:57,394 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 4 to 4, cost 1 ms.
+
+2023-08-10 10:18:59,669 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2023-08-10 10:18:59,669 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_4.
+
+2023-08-10 10:18:59,669 INFO Renaming D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_4.
+
+2023-08-10 10:18:59,669 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot on windows.
+
+2023-08-10 10:18:59,669 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_3.
+
+2023-08-10 10:18:59,671 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 4 to 4, cost 0 ms.
+
+2023-08-10 10:25:27,449 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2023-08-10 10:25:27,449 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_4.
+
+2023-08-10 10:25:27,449 INFO Renaming D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_4.
+
+2023-08-10 10:25:27,449 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot on windows.
+
+2023-08-10 10:25:27,449 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_3.
+
+2023-08-10 10:25:27,452 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 4 to 4, cost 0 ms.
+
+2023-08-10 10:47:57,385 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 4 to 5, cost 0 ms.
+
+2023-08-10 10:48:59,687 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 4 to 5, cost 0 ms.
+
+2023-08-10 10:55:27,452 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 4 to 5, cost 0 ms.
+
+2023-08-10 10:59:35,009 INFO Connection disconnected: /192.168.202.1:51542
+
+2023-08-10 10:59:35,012 INFO The channel 192.168.202.1:7848 is in state: IDLE.
+
+2023-08-10 10:59:35,519 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 10:59:38,090 INFO The channel 192.168.202.1:7848 is in state: TRANSIENT_FAILURE.
+
+2023-08-10 10:59:38,090 WARN There has been some transient failure on this channel 192.168.202.1:7848.
+
+2023-08-10 10:59:38,092 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 10:59:38,092 WARN Channel[192.168.202.1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2023-08-10 10:59:38,094 INFO The channel 192.168.202.1:7848 is in state: SHUTDOWN.
+
+2023-08-10 10:59:38,094 WARN This channel 192.168.202.1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2023-08-10 10:59:38,096 INFO Creating new channel to: 192.168.202.1:7848.
+
+2023-08-10 10:59:38,098 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 10:59:39,107 ERROR Fail to connect 192.168.202.1:7848, remoting exception: java.util.concurrent.TimeoutException.
+
+2023-08-10 11:04:55,217 INFO The channel 192.168.202.1:7848 is in state: TRANSIENT_FAILURE.
+
+2023-08-10 11:04:55,217 WARN There has been some transient failure on this channel 192.168.202.1:7848.
+
+2023-08-10 11:04:55,217 WARN Channel[192.168.202.1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2023-08-10 11:04:55,218 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 11:04:55,218 INFO The channel 192.168.202.1:7848 is in state: SHUTDOWN.
+
+2023-08-10 11:04:55,218 WARN This channel 192.168.202.1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2023-08-10 11:04:55,218 INFO Creating new channel to: 192.168.202.1:7848.
+
+2023-08-10 11:04:55,219 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 11:04:55,221 INFO The channel 192.168.202.1:7848 is in state: READY.
+
+2023-08-10 11:04:55,221 INFO The channel 192.168.202.1:7848 has successfully established.
+
+2023-08-10 11:19:40,909 INFO Connection disconnected: /192.168.202.1:55945
+
+2023-08-10 11:19:40,909 INFO The channel 192.168.202.1:7848 is in state: IDLE.
+
+2023-08-10 11:19:42,028 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 11:19:43,961 INFO The channel 192.168.202.1:7848 is in state: TRANSIENT_FAILURE.
+
+2023-08-10 11:19:43,961 WARN There has been some transient failure on this channel 192.168.202.1:7848.
+
+2023-08-10 11:19:43,961 WARN Channel[192.168.202.1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2023-08-10 11:19:43,961 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 11:19:43,961 INFO The channel 192.168.202.1:7848 is in state: SHUTDOWN.
+
+2023-08-10 11:19:43,961 WARN This channel 192.168.202.1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2023-08-10 11:19:43,968 INFO Creating new channel to: 192.168.202.1:7848.
+
+2023-08-10 11:19:43,968 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 11:19:44,973 ERROR Fail to connect 192.168.202.1:7848, remoting exception: java.util.concurrent.TimeoutException.
+
+2023-08-10 12:01:23,799 INFO The channel 192.168.202.1:7848 is in state: TRANSIENT_FAILURE.
+
+2023-08-10 12:01:23,799 WARN There has been some transient failure on this channel 192.168.202.1:7848.
+
+2023-08-10 12:01:23,799 WARN Channel[192.168.202.1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2023-08-10 12:01:23,799 INFO The channel 192.168.202.1:7848 is in state: SHUTDOWN.
+
+2023-08-10 12:01:23,799 WARN This channel 192.168.202.1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2023-08-10 12:01:23,800 INFO Creating new channel to: 192.168.202.1:7848.
+
+2023-08-10 12:01:23,800 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 12:01:23,802 INFO The channel 192.168.202.1:7848 is in state: READY.
+
+2023-08-10 12:01:23,802 INFO The channel 192.168.202.1:7848 has successfully established.
+
+2023-08-10 13:41:14,158 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2023-08-10 13:41:14,266 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2023-08-10 13:41:14,389 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2023-08-10 13:41:14,397 INFO The number of active nodes increment to 1.
+
+2023-08-10 13:41:14,624 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 0 to 5, cost 1 ms.
+
+2023-08-10 13:41:14,628 INFO Starts FSMCaller successfully.
+
+2023-08-10 13:41:14,634 INFO Loading snapshot, meta=last_included_index: 4
+last_included_term: 4
+peers: "192.168.202.1:7848"
+.
+
+2023-08-10 13:41:14,681 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> onSnapshotLoadDone, last_included_index: 4
+last_included_term: 4
+peers: "192.168.202.1:7848"
+
+
+2023-08-10 13:41:14,681 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> target priority value has changed from: 0, to: -1.
+
+2023-08-10 13:41:14,683 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 5 to 5, cost 0 ms.
+
+2023-08-10 13:41:14,687 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> init, term=4, lastLogId=LogId [index=4, term=4], conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 13:41:14,689 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> start vote and grant vote self, term=4.
+
+2023-08-10 13:41:14,697 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2023-08-10 13:41:14,698 INFO Save raft meta, path=D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=5, votedFor=192.168.202.1:7848, cost time=8 ms
+
+2023-08-10 13:41:14,698 INFO Node <naming_persistent_service_v2/192.168.202.1:7848> become leader of group, term=5, conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 13:41:14,700 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2023-08-10 13:41:14,702 WARN RPC server is not started in RaftGroupService.
+
+2023-08-10 13:41:14,702 INFO Start the RaftGroupService successfully.
+
+2023-08-10 13:41:14,712 INFO onLeaderStart: term=5.
+
+2023-08-10 13:41:14,743 INFO The number of active nodes increment to 2.
+
+2023-08-10 13:41:14,784 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 0 to 5, cost 1 ms.
+
+2023-08-10 13:41:14,785 INFO Starts FSMCaller successfully.
+
+2023-08-10 13:41:14,785 INFO Loading snapshot, meta=last_included_index: 4
+last_included_term: 4
+peers: "192.168.202.1:7848"
+.
+
+2023-08-10 13:41:14,786 INFO Node <naming_instance_metadata/192.168.202.1:7848> onSnapshotLoadDone, last_included_index: 4
+last_included_term: 4
+peers: "192.168.202.1:7848"
+
+
+2023-08-10 13:41:14,786 INFO Node <naming_instance_metadata/192.168.202.1:7848> target priority value has changed from: 0, to: -1.
+
+2023-08-10 13:41:14,787 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 5 to 5, cost 1 ms.
+
+2023-08-10 13:41:14,788 INFO Node <naming_instance_metadata/192.168.202.1:7848> init, term=4, lastLogId=LogId [index=4, term=4], conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 13:41:14,788 INFO Node <naming_instance_metadata/192.168.202.1:7848> start vote and grant vote self, term=4.
+
+2023-08-10 13:41:14,790 INFO Creating new channel to: 192.168.202.1:7848.
+
+2023-08-10 13:41:14,791 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2023-08-10 13:41:14,791 INFO Save raft meta, path=D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=5, votedFor=192.168.202.1:7848, cost time=2 ms
+
+2023-08-10 13:41:14,791 INFO Node <naming_instance_metadata/192.168.202.1:7848> become leader of group, term=5, conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 13:41:14,791 WARN RPC server is not started in RaftGroupService.
+
+2023-08-10 13:41:14,791 INFO Start the RaftGroupService successfully.
+
+2023-08-10 13:41:14,792 INFO onLeaderStart: term=5.
+
+2023-08-10 13:41:14,796 INFO The number of active nodes increment to 3.
+
+2023-08-10 13:41:14,836 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 0 to 5, cost 0 ms.
+
+2023-08-10 13:41:14,837 INFO Starts FSMCaller successfully.
+
+2023-08-10 13:41:14,838 INFO Loading snapshot, meta=last_included_index: 4
+last_included_term: 4
+peers: "192.168.202.1:7848"
+.
+
+2023-08-10 13:41:14,839 INFO Node <naming_service_metadata/192.168.202.1:7848> onSnapshotLoadDone, last_included_index: 4
+last_included_term: 4
+peers: "192.168.202.1:7848"
+
+
+2023-08-10 13:41:14,839 INFO Node <naming_service_metadata/192.168.202.1:7848> target priority value has changed from: 0, to: -1.
+
+2023-08-10 13:41:14,839 INFO Node <naming_service_metadata/192.168.202.1:7848> init, term=4, lastLogId=LogId [index=4, term=4], conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 13:41:14,840 INFO Node <naming_service_metadata/192.168.202.1:7848> start vote and grant vote self, term=4.
+
+2023-08-10 13:41:14,840 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 5 to 5, cost 0 ms.
+
+2023-08-10 13:41:14,843 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2023-08-10 13:41:14,843 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 13:41:14,843 INFO Save raft meta, path=D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=5, votedFor=192.168.202.1:7848, cost time=3 ms
+
+2023-08-10 13:41:14,843 INFO Node <naming_service_metadata/192.168.202.1:7848> become leader of group, term=5, conf=192.168.202.1:7848, oldConf=.
+
+2023-08-10 13:41:14,844 WARN RPC server is not started in RaftGroupService.
+
+2023-08-10 13:41:14,844 INFO Start the RaftGroupService successfully.
+
+2023-08-10 13:41:14,845 INFO onLeaderStart: term=5.
+
+2023-08-10 13:41:15,026 INFO The channel 192.168.202.1:7848 is in state: READY.
+
+2023-08-10 13:41:15,026 INFO The channel 192.168.202.1:7848 has successfully established.
+
+2023-08-10 14:06:44,749 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2023-08-10 14:06:44,749 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_5.
+
+2023-08-10 14:06:44,749 INFO Renaming D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_5.
+
+2023-08-10 14:06:44,749 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot on windows.
+
+2023-08-10 14:06:44,749 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_4.
+
+2023-08-10 14:06:44,753 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 5 to 5, cost 0 ms.
+
+2023-08-10 14:08:25,173 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2023-08-10 14:08:25,173 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_5.
+
+2023-08-10 14:08:25,173 INFO Renaming D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_5.
+
+2023-08-10 14:08:25,173 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot on windows.
+
+2023-08-10 14:08:25,173 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_4.
+
+2023-08-10 14:08:25,175 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 5 to 5, cost 0 ms.
+
+2023-08-10 14:09:34,275 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2023-08-10 14:09:34,275 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_5.
+
+2023-08-10 14:09:34,275 INFO Renaming D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_5.
+
+2023-08-10 14:09:34,275 WARN Unable to fsync directory D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot on windows.
+
+2023-08-10 14:09:34,275 INFO Deleting snapshot D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_4.
+
+2023-08-10 14:09:34,277 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 5 to 5, cost 0 ms.
+
+2023-08-10 14:36:44,750 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 5 to 6, cost 0 ms.
+
+2023-08-10 14:38:25,177 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 5 to 6, cost 0 ms.
+
+2023-08-10 14:39:34,269 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 5 to 6, cost 0 ms.
+
+2023-08-10 15:06:44,751 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 6 to 6, cost 0 ms.
+
+2023-08-10 15:08:25,173 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 6 to 6, cost 0 ms.
+
+2023-08-10 15:09:34,279 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 6 to 6, cost 0 ms.
+
+2023-08-10 15:35:09,082 INFO Connection disconnected: /192.168.202.1:54716
+
+2023-08-10 15:35:09,087 INFO The channel 192.168.202.1:7848 is in state: IDLE.
+
+2023-08-10 15:35:11,766 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 15:35:12,173 INFO The channel 192.168.202.1:7848 is in state: TRANSIENT_FAILURE.
+
+2023-08-10 15:35:12,174 WARN There has been some transient failure on this channel 192.168.202.1:7848.
+
+2023-08-10 15:35:12,177 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 15:39:01,438 INFO The channel 192.168.202.1:7848 is in state: TRANSIENT_FAILURE.
+
+2023-08-10 15:39:01,438 WARN There has been some transient failure on this channel 192.168.202.1:7848.
+
+2023-08-10 15:39:01,438 WARN Channel[192.168.202.1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2023-08-10 15:39:01,439 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 15:39:01,439 INFO The channel 192.168.202.1:7848 is in state: SHUTDOWN.
+
+2023-08-10 15:39:01,439 WARN This channel 192.168.202.1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2023-08-10 15:39:01,440 INFO Creating new channel to: 192.168.202.1:7848.
+
+2023-08-10 15:39:01,441 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 15:39:02,443 ERROR Fail to connect 192.168.202.1:7848, remoting exception: java.util.concurrent.TimeoutException.
+
+2023-08-10 15:39:02,466 ERROR Fail to connect 192.168.202.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.999480400s. [closed=[], open=[[buffered_nanos=1002812500, waiting_for_connection]]].
+
+2023-08-10 15:39:02,466 ERROR Fail to connect 192.168.202.1:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.999584400s. [closed=[], open=[[buffered_nanos=1002794800, waiting_for_connection]]].
+
+2023-08-10 15:39:22,474 INFO The channel 192.168.202.1:7848 is in state: TRANSIENT_FAILURE.
+
+2023-08-10 15:39:22,474 WARN There has been some transient failure on this channel 192.168.202.1:7848.
+
+2023-08-10 15:39:22,474 WARN Channel[192.168.202.1:7848] in [INACTIVE] state 2 times, it has been removed from the pool.
+
+2023-08-10 15:39:22,475 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 15:39:22,475 INFO The channel 192.168.202.1:7848 is in state: SHUTDOWN.
+
+2023-08-10 15:39:22,475 WARN This channel 192.168.202.1:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2023-08-10 15:39:22,475 INFO Creating new channel to: 192.168.202.1:7848.
+
+2023-08-10 15:39:22,476 INFO The channel 192.168.202.1:7848 is in state: CONNECTING.
+
+2023-08-10 15:39:22,477 INFO The channel 192.168.202.1:7848 is in state: READY.
+
+2023-08-10 15:39:22,477 INFO The channel 192.168.202.1:7848 has successfully established.
+
+2023-08-10 15:40:31,441 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 6 to 6, cost 0 ms.
+
+2023-08-10 15:40:31,441 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_service_metadata\log from log index 6 to 6, cost 0 ms.
+
+2023-08-10 15:40:31,442 INFO Truncated prefix logs in data path: D:\web\Cloud_Demo\Spring_Cloud_Demo\nacos-server\nacos\data\protocol\raft\naming_instance_metadata\log from log index 6 to 6, cost 0 ms.
+

@@ -8,4 +8,8 @@ import org.example.entity.UserEntity;
  */
 public interface UserService {
     UserEntity getUserById(int uid);
+
+    int getRemain(int uid);
+
+    boolean setRemain(int uid, int count);
 }

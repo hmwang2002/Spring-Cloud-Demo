@@ -1,0 +1,866 @@
+2023-08-10 10:00:35,024 INFO Load instance extension handler []
+
+2023-08-10 10:00:35,042 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-08-10 10:00:35,042 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-08-10 10:00:35,043 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-08-10 10:00:35,043 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-08-10 10:06:39,685 INFO Client connection 1691633199539_127.0.0.1_52949 connect
+
+2023-08-10 10:06:39,795 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=0}, 1691633199539_127.0.0.1_52949
+
+2023-08-10 10:06:40,584 INFO Client connection 1691633200509_127.0.0.1_52954 connect
+
+2023-08-10 10:06:40,697 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=1}, 1691633200509_127.0.0.1_52954
+
+2023-08-10 10:06:43,946 INFO Client connection 1691633203871_127.0.0.1_52979 connect
+
+2023-08-10 10:06:44,059 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=0}, 1691633203871_127.0.0.1_52979
+
+2023-08-10 10:06:45,455 INFO Client connection 1691633205392_127.0.0.1_52983 connect
+
+2023-08-10 10:06:45,567 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=1}, 1691633205392_127.0.0.1_52983
+
+2023-08-10 10:06:49,503 INFO Client connection 1691633209493_127.0.0.1_52996 connect
+
+2023-08-10 10:06:49,613 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691633209493_127.0.0.1_52996
+
+2023-08-10 10:14:20,994 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691633209493_127.0.0.1_52996
+
+2023-08-10 10:14:21,001 INFO Client connection 1691633209493_127.0.0.1_52996 disconnect, remove instances and subscribers
+
+2023-08-10 10:14:21,362 INFO Client connection 1691633206333_127.0.0.1_52985 disconnect, remove instances and subscribers
+
+2023-08-10 10:14:28,559 INFO Client connection 1691633668554_127.0.0.1_53284 connect
+
+2023-08-10 10:14:28,669 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}, 1691633668554_127.0.0.1_53284
+
+2023-08-10 10:15:02,874 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=3}, 1691633668554_127.0.0.1_53284
+
+2023-08-10 10:15:02,880 INFO Client connection 1691633668554_127.0.0.1_53284 disconnect, remove instances and subscribers
+
+2023-08-10 10:15:03,226 INFO Client connection 1691633665515_127.0.0.1_53273 disconnect, remove instances and subscribers
+
+2023-08-10 10:15:09,456 INFO Client connection 1691633709452_127.0.0.1_53328 connect
+
+2023-08-10 10:15:09,564 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}, 1691633709452_127.0.0.1_53328
+
+2023-08-10 10:16:08,437 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=5}, 1691633709452_127.0.0.1_53328
+
+2023-08-10 10:16:08,442 INFO Client connection 1691633709452_127.0.0.1_53328 disconnect, remove instances and subscribers
+
+2023-08-10 10:16:08,795 INFO Client connection 1691633706316_127.0.0.1_53317 disconnect, remove instances and subscribers
+
+2023-08-10 10:16:15,517 INFO Client connection 1691633775512_127.0.0.1_53373 connect
+
+2023-08-10 10:16:15,624 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=6}, 1691633775512_127.0.0.1_53373
+
+2023-08-10 10:19:07,214 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=2}, 1691633199539_127.0.0.1_52949
+
+2023-08-10 10:19:07,219 INFO Client connection 1691633199539_127.0.0.1_52949 disconnect, remove instances and subscribers
+
+2023-08-10 10:19:07,241 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=3}, 1691633200509_127.0.0.1_52954
+
+2023-08-10 10:19:07,246 INFO Client connection 1691633200509_127.0.0.1_52954 disconnect, remove instances and subscribers
+
+2023-08-10 10:19:07,266 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=2}, 1691633203871_127.0.0.1_52979
+
+2023-08-10 10:19:07,271 INFO Client connection 1691633203871_127.0.0.1_52979 disconnect, remove instances and subscribers
+
+2023-08-10 10:19:07,291 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=3}, 1691633205392_127.0.0.1_52983
+
+2023-08-10 10:19:07,296 INFO Client connection 1691633205392_127.0.0.1_52983 disconnect, remove instances and subscribers
+
+2023-08-10 10:19:07,320 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=7}, 1691633775512_127.0.0.1_53373
+
+2023-08-10 10:19:07,326 INFO Client connection 1691633775512_127.0.0.1_53373 disconnect, remove instances and subscribers
+
+2023-08-10 10:19:07,668 INFO Client connection 1691633772123_127.0.0.1_53356 disconnect, remove instances and subscribers
+
+2023-08-10 10:21:05,204 WARN namespace : public, [DEFAULT_GROUP@@UserService] services are automatically cleaned
+
+2023-08-10 10:21:05,204 WARN namespace : public, [DEFAULT_GROUP@@BookService] services are automatically cleaned
+
+2023-08-10 10:21:05,204 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 10:22:01,292 INFO Client connection 1691634121288_127.0.0.1_53547 connect
+
+2023-08-10 10:22:01,400 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691634121288_127.0.0.1_53547
+
+2023-08-10 10:22:30,065 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691634121288_127.0.0.1_53547
+
+2023-08-10 10:22:30,071 INFO Client connection 1691634121288_127.0.0.1_53547 disconnect, remove instances and subscribers
+
+2023-08-10 10:22:30,412 INFO Client connection 1691634118197_127.0.0.1_53534 disconnect, remove instances and subscribers
+
+2023-08-10 10:22:36,563 INFO Client connection 1691634156559_127.0.0.1_53572 connect
+
+2023-08-10 10:22:36,670 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}, 1691634156559_127.0.0.1_53572
+
+2023-08-10 10:26:01,241 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=3}, 1691634156559_127.0.0.1_53572
+
+2023-08-10 10:26:01,246 INFO Client connection 1691634156559_127.0.0.1_53572 disconnect, remove instances and subscribers
+
+2023-08-10 10:26:01,588 INFO Client connection 1691634153519_127.0.0.1_53559 disconnect, remove instances and subscribers
+
+2023-08-10 10:26:08,710 INFO Client connection 1691634368706_127.0.0.1_53647 connect
+
+2023-08-10 10:26:08,818 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}, 1691634368706_127.0.0.1_53647
+
+2023-08-10 10:26:56,378 INFO Client connection 1691634416317_127.0.0.1_53686 connect
+
+2023-08-10 10:26:56,490 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=0}, 1691634416317_127.0.0.1_53686
+
+2023-08-10 10:26:57,639 INFO Client connection 1691634417580_127.0.0.1_53688 connect
+
+2023-08-10 10:26:57,751 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=1}, 1691634417580_127.0.0.1_53688
+
+2023-08-10 10:45:21,406 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=5}, 1691634368706_127.0.0.1_53647
+
+2023-08-10 10:45:21,410 INFO Client connection 1691634368706_127.0.0.1_53647 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:21,761 INFO Client connection 1691634365726_127.0.0.1_53636 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:23,051 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=2}, 1691634416317_127.0.0.1_53686
+
+2023-08-10 10:45:23,055 INFO Client connection 1691634416317_127.0.0.1_53686 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:23,075 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=3}, 1691634417580_127.0.0.1_53688
+
+2023-08-10 10:45:23,080 INFO Client connection 1691634417580_127.0.0.1_53688 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:32,754 INFO Client connection 1691635532673_127.0.0.1_54466 connect
+
+2023-08-10 10:45:32,869 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=4}, 1691635532673_127.0.0.1_54466
+
+2023-08-10 10:45:34,283 INFO Client connection 1691635534215_127.0.0.1_54482 connect
+
+2023-08-10 10:45:34,394 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=5}, 1691635534215_127.0.0.1_54482
+
+2023-08-10 10:45:35,627 INFO Client connection 1691635535567_127.0.0.1_54494 connect
+
+2023-08-10 10:45:35,736 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=0}, 1691635535567_127.0.0.1_54494
+
+2023-08-10 10:45:36,715 INFO Client connection 1691635536649_127.0.0.1_54497 connect
+
+2023-08-10 10:45:36,826 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=1}, 1691635536649_127.0.0.1_54497
+
+2023-08-10 10:45:38,814 INFO Client connection 1691635538809_127.0.0.1_54509 connect
+
+2023-08-10 10:45:38,921 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=6}, 1691635538809_127.0.0.1_54509
+
+2023-08-10 10:45:51,595 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=6}, 1691635532673_127.0.0.1_54466
+
+2023-08-10 10:45:51,601 INFO Client connection 1691635532673_127.0.0.1_54466 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:51,620 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=7}, 1691635534215_127.0.0.1_54482
+
+2023-08-10 10:45:51,625 INFO Client connection 1691635534215_127.0.0.1_54482 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:51,645 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=2}, 1691635535567_127.0.0.1_54494
+
+2023-08-10 10:45:51,650 INFO Client connection 1691635535567_127.0.0.1_54494 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:51,671 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=3}, 1691635536649_127.0.0.1_54497
+
+2023-08-10 10:45:51,677 INFO Client connection 1691635536649_127.0.0.1_54497 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:51,697 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=7}, 1691635538809_127.0.0.1_54509
+
+2023-08-10 10:45:51,702 INFO Client connection 1691635538809_127.0.0.1_54509 disconnect, remove instances and subscribers
+
+2023-08-10 10:45:52,051 INFO Client connection 1691635535712_127.0.0.1_54495 disconnect, remove instances and subscribers
+
+2023-08-10 10:47:05,377 WARN namespace : public, [DEFAULT_GROUP@@UserService] services are automatically cleaned
+
+2023-08-10 10:47:05,377 WARN namespace : public, [DEFAULT_GROUP@@BookService] services are automatically cleaned
+
+2023-08-10 10:47:05,377 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 10:50:35,931 INFO Client connection 1691635835847_127.0.0.1_54645 connect
+
+2023-08-10 10:50:36,047 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=0}, 1691635835847_127.0.0.1_54645
+
+2023-08-10 10:50:37,527 INFO Client connection 1691635837461_127.0.0.1_54664 connect
+
+2023-08-10 10:50:37,638 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=1}, 1691635837461_127.0.0.1_54664
+
+2023-08-10 10:50:38,905 INFO Client connection 1691635838845_127.0.0.1_54678 connect
+
+2023-08-10 10:50:39,014 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=0}, 1691635838845_127.0.0.1_54678
+
+2023-08-10 10:50:39,900 INFO Client connection 1691635839837_127.0.0.1_54684 connect
+
+2023-08-10 10:50:40,011 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=1}, 1691635839837_127.0.0.1_54684
+
+2023-08-10 10:50:42,062 INFO Client connection 1691635842058_127.0.0.1_54702 connect
+
+2023-08-10 10:50:42,170 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691635842058_127.0.0.1_54702
+
+2023-08-10 10:55:25,377 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=2}, 1691635835847_127.0.0.1_54645
+
+2023-08-10 10:55:25,383 INFO Client connection 1691635835847_127.0.0.1_54645 disconnect, remove instances and subscribers
+
+2023-08-10 10:55:25,401 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=3}, 1691635837461_127.0.0.1_54664
+
+2023-08-10 10:55:25,406 INFO Client connection 1691635837461_127.0.0.1_54664 disconnect, remove instances and subscribers
+
+2023-08-10 10:55:25,425 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=2}, 1691635838845_127.0.0.1_54678
+
+2023-08-10 10:55:25,431 INFO Client connection 1691635838845_127.0.0.1_54678 disconnect, remove instances and subscribers
+
+2023-08-10 10:55:25,450 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=3}, 1691635839837_127.0.0.1_54684
+
+2023-08-10 10:55:25,455 INFO Client connection 1691635839837_127.0.0.1_54684 disconnect, remove instances and subscribers
+
+2023-08-10 10:55:25,476 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691635842058_127.0.0.1_54702
+
+2023-08-10 10:55:25,481 INFO Client connection 1691635842058_127.0.0.1_54702 disconnect, remove instances and subscribers
+
+2023-08-10 10:55:25,829 INFO Client connection 1691635838963_127.0.0.1_54679 disconnect, remove instances and subscribers
+
+2023-08-10 10:55:35,222 INFO Client connection 1691636135218_127.0.0.1_55004 connect
+
+2023-08-10 10:55:35,331 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}, 1691636135218_127.0.0.1_55004
+
+2023-08-10 10:57:05,448 WARN namespace : public, [DEFAULT_GROUP@@UserService] services are automatically cleaned
+
+2023-08-10 10:57:05,448 WARN namespace : public, [DEFAULT_GROUP@@BookService] services are automatically cleaned
+
+2023-08-10 11:08:47,936 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=3}, 1691636135218_127.0.0.1_55004
+
+2023-08-10 11:08:47,940 INFO Client connection 1691636135218_127.0.0.1_55004 disconnect, remove instances and subscribers
+
+2023-08-10 11:08:48,286 INFO Client connection 1691636132178_127.0.0.1_54992 disconnect, remove instances and subscribers
+
+2023-08-10 11:08:55,458 INFO Client connection 1691636935454_127.0.0.1_56157 connect
+
+2023-08-10 11:08:55,565 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}, 1691636935454_127.0.0.1_56157
+
+2023-08-10 11:10:16,046 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=5}, 1691636935454_127.0.0.1_56157
+
+2023-08-10 11:10:16,051 INFO Client connection 1691636935454_127.0.0.1_56157 disconnect, remove instances and subscribers
+
+2023-08-10 11:10:16,397 INFO Client connection 1691636932467_127.0.0.1_56146 disconnect, remove instances and subscribers
+
+2023-08-10 11:10:22,478 INFO Client connection 1691637022474_127.0.0.1_56203 connect
+
+2023-08-10 11:10:22,585 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=6}, 1691637022474_127.0.0.1_56203
+
+2023-08-10 11:13:10,651 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=7}, 1691637022474_127.0.0.1_56203
+
+2023-08-10 11:13:10,656 INFO Client connection 1691637022474_127.0.0.1_56203 disconnect, remove instances and subscribers
+
+2023-08-10 11:13:11,007 INFO Client connection 1691637019433_127.0.0.1_56192 disconnect, remove instances and subscribers
+
+2023-08-10 11:13:18,187 INFO Client connection 1691637198183_127.0.0.1_56357 connect
+
+2023-08-10 11:13:18,295 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=8}, 1691637198183_127.0.0.1_56357
+
+2023-08-10 11:14:25,471 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=9}, 1691637198183_127.0.0.1_56357
+
+2023-08-10 11:14:25,477 INFO Client connection 1691637198183_127.0.0.1_56357 disconnect, remove instances and subscribers
+
+2023-08-10 11:14:25,819 INFO Client connection 1691637195171_127.0.0.1_56346 disconnect, remove instances and subscribers
+
+2023-08-10 11:14:32,942 INFO Client connection 1691637272938_127.0.0.1_56388 connect
+
+2023-08-10 11:14:33,049 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=10}, 1691637272938_127.0.0.1_56388
+
+2023-08-10 11:15:58,314 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=11}, 1691637272938_127.0.0.1_56388
+
+2023-08-10 11:15:58,319 INFO Client connection 1691637272938_127.0.0.1_56388 disconnect, remove instances and subscribers
+
+2023-08-10 11:15:58,662 INFO Client connection 1691637269911_127.0.0.1_56377 disconnect, remove instances and subscribers
+
+2023-08-10 11:16:04,727 INFO Client connection 1691637364724_127.0.0.1_56421 connect
+
+2023-08-10 11:16:04,835 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=12}, 1691637364724_127.0.0.1_56421
+
+2023-08-10 11:18:44,911 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=13}, 1691637364724_127.0.0.1_56421
+
+2023-08-10 11:18:44,916 INFO Client connection 1691637364724_127.0.0.1_56421 disconnect, remove instances and subscribers
+
+2023-08-10 11:18:45,261 INFO Client connection 1691637361672_127.0.0.1_56408 disconnect, remove instances and subscribers
+
+2023-08-10 11:18:51,436 INFO Client connection 1691637531433_127.0.0.1_56470 connect
+
+2023-08-10 11:18:51,544 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=14}, 1691637531433_127.0.0.1_56470
+
+2023-08-10 12:01:11,678 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=15}, 1691637531433_127.0.0.1_56470
+
+2023-08-10 12:01:11,682 INFO Client connection 1691637531433_127.0.0.1_56470 disconnect, remove instances and subscribers
+
+2023-08-10 12:01:12,024 INFO Client connection 1691637528381_127.0.0.1_56459 disconnect, remove instances and subscribers
+
+2023-08-10 13:41:14,707 INFO Load instance extension handler []
+
+2023-08-10 13:41:14,728 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-08-10 13:41:14,728 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-08-10 13:41:14,729 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-08-10 13:41:14,729 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-08-10 13:50:31,153 INFO Client connection 192.168.202.1:8868#true connect
+
+2023-08-10 13:50:31,158 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 192.168.202.1:8868#true
+
+2023-08-10 13:51:46,001 INFO Client connection 1691646705995_127.0.0.1_54992 connect
+
+2023-08-10 13:51:46,109 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691646705995_127.0.0.1_54992
+
+2023-08-10 13:53:16,223 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, 192.168.202.1:8868#true
+
+2023-08-10 13:53:21,395 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691646705995_127.0.0.1_54992
+
+2023-08-10 13:53:21,401 INFO Client connection 1691646705995_127.0.0.1_54992 disconnect, remove instances and subscribers
+
+2023-08-10 13:53:21,752 INFO Client connection 1691646702941_127.0.0.1_54981 disconnect, remove instances and subscribers
+
+2023-08-10 13:53:27,867 INFO Client connection 1691646807862_127.0.0.1_55042 connect
+
+2023-08-10 13:53:27,976 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}, 1691646807862_127.0.0.1_55042
+
+2023-08-10 13:53:53,557 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=3}, 1691646807862_127.0.0.1_55042
+
+2023-08-10 13:53:53,563 INFO Client connection 1691646807862_127.0.0.1_55042 disconnect, remove instances and subscribers
+
+2023-08-10 13:53:53,905 INFO Client connection 1691646804878_127.0.0.1_55031 disconnect, remove instances and subscribers
+
+2023-08-10 13:54:00,135 INFO Client connection 1691646840129_127.0.0.1_55068 connect
+
+2023-08-10 13:54:00,243 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}, 1691646840129_127.0.0.1_55068
+
+2023-08-10 13:54:01,829 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=5}, 1691646840129_127.0.0.1_55068
+
+2023-08-10 13:54:02,140 INFO Client connection 1691646840129_127.0.0.1_55068 disconnect, remove instances and subscribers
+
+2023-08-10 13:54:02,485 INFO Client connection 1691646836993_127.0.0.1_55053 disconnect, remove instances and subscribers
+
+2023-08-10 13:54:08,621 INFO Client connection 1691646848615_127.0.0.1_55090 connect
+
+2023-08-10 13:54:08,727 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=6}, 1691646848615_127.0.0.1_55090
+
+2023-08-10 13:58:11,032 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=7}, 1691646848615_127.0.0.1_55090
+
+2023-08-10 13:58:11,038 INFO Client connection 1691646848615_127.0.0.1_55090 disconnect, remove instances and subscribers
+
+2023-08-10 13:58:11,563 INFO Client connection 1691646845554_127.0.0.1_55078 disconnect, remove instances and subscribers
+
+2023-08-10 13:58:22,424 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=2}, 192.168.202.1:8868#true
+
+2023-08-10 13:58:47,478 INFO Client connection 1691647127473_127.0.0.1_55262 connect
+
+2023-08-10 13:58:47,585 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=8}, 1691647127473_127.0.0.1_55262
+
+2023-08-10 14:01:43,816 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=3}, 192.168.202.1:8868#true
+
+2023-08-10 14:01:48,889 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=9}, 1691647127473_127.0.0.1_55262
+
+2023-08-10 14:01:48,894 INFO Client connection 1691647127473_127.0.0.1_55262 disconnect, remove instances and subscribers
+
+2023-08-10 14:01:49,242 INFO Client connection 1691647124452_127.0.0.1_55251 disconnect, remove instances and subscribers
+
+2023-08-10 14:01:56,334 INFO Client connection 1691647316329_127.0.0.1_55402 connect
+
+2023-08-10 14:01:56,441 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=10}, 1691647316329_127.0.0.1_55402
+
+2023-08-10 14:07:46,296 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=11}, 1691647316329_127.0.0.1_55402
+
+2023-08-10 14:07:46,301 INFO Client connection 1691647316329_127.0.0.1_55402 disconnect, remove instances and subscribers
+
+2023-08-10 14:07:46,655 INFO Client connection 1691647313345_127.0.0.1_55388 disconnect, remove instances and subscribers
+
+2023-08-10 14:08:28,080 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=4}, ip: {"ip":"192.168.202.1","port":8868,"healthy":false,"cluster":"default","extendDatum":{"customInstanceId":"192.168.202.1#8868#default#SEATA_GROUP@@seata-server"},"lastHeartBeatTime":1691647674665,"metadataId":"192.168.202.1:8868:default"}
+
+2023-08-10 14:08:28,080 INFO Client remove for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=4}, 192.168.202.1:8868#true
+
+2023-08-10 14:08:28,689 INFO Client connection 192.168.202.1:8868#true disconnect, remove instances and subscribers
+
+2023-08-10 14:09:44,938 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 14:09:44,938 WARN namespace : public, [SEATA_GROUP@@seata-server] services are automatically cleaned
+
+2023-08-10 14:13:40,266 INFO Client connection 192.168.202.1:8868#true connect
+
+2023-08-10 14:13:40,266 INFO Client change for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 192.168.202.1:8868#true
+
+2023-08-10 14:14:13,382 INFO Client connection 1691648052008_127.0.0.1_55761 disconnect, remove instances and subscribers
+
+2023-08-10 14:17:31,326 INFO Client connection 1691648249961_127.0.0.1_55975 disconnect, remove instances and subscribers
+
+2023-08-10 14:21:31,037 INFO [AUTO-DELETE-IP] service: Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, ip: {"ip":"192.168.202.1","port":8868,"healthy":false,"cluster":"default","extendDatum":{"customInstanceId":"192.168.202.1#8868#default#SEATA_GROUP@@seata-server"},"lastHeartBeatTime":1691648456122,"metadataId":"192.168.202.1:8868:default"}
+
+2023-08-10 14:21:31,037 INFO Client remove for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, 192.168.202.1:8868#true
+
+2023-08-10 14:21:34,989 INFO Client connection 192.168.202.1:8868#true disconnect, remove instances and subscribers
+
+2023-08-10 14:22:45,042 WARN namespace : 8ab31473-b8fb-47c7-a8ef-c55ff4127c28, [SEATA_GROUP@@seata-server] services are automatically cleaned
+
+2023-08-10 14:22:53,543 INFO Client connection 192.168.202.1:8868#true connect
+
+2023-08-10 14:22:53,543 INFO Client change for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 192.168.202.1:8868#true
+
+2023-08-10 14:23:03,733 INFO Client connection 1691648582377_127.0.0.1_56268 disconnect, remove instances and subscribers
+
+2023-08-10 14:25:50,985 INFO Client connection 1691648749647_127.0.0.1_56330 disconnect, remove instances and subscribers
+
+2023-08-10 14:30:42,004 INFO Client connection 1691649040665_127.0.0.1_56454 disconnect, remove instances and subscribers
+
+2023-08-10 14:31:05,709 INFO Client connection 1691649065705_127.0.0.1_56482 connect
+
+2023-08-10 14:31:05,815 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691649065705_127.0.0.1_56482
+
+2023-08-10 14:32:15,655 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691649065705_127.0.0.1_56482
+
+2023-08-10 14:32:15,663 INFO Client connection 1691649065705_127.0.0.1_56482 disconnect, remove instances and subscribers
+
+2023-08-10 14:32:16,010 INFO Client connection 1691649063061_127.0.0.1_56471 disconnect, remove instances and subscribers
+
+2023-08-10 14:32:16,010 INFO Client connection 1691649062156_127.0.0.1_56469 disconnect, remove instances and subscribers
+
+2023-08-10 14:32:16,402 INFO Client change for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, 192.168.202.1:8868#true
+
+2023-08-10 14:32:23,814 INFO Client connection 1691649143810_127.0.0.1_56541 connect
+
+2023-08-10 14:32:23,920 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}, 1691649143810_127.0.0.1_56541
+
+2023-08-10 14:34:06,962 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=3}, 1691649143810_127.0.0.1_56541
+
+2023-08-10 14:34:06,969 INFO Client connection 1691649143810_127.0.0.1_56541 disconnect, remove instances and subscribers
+
+2023-08-10 14:34:07,491 INFO Client connection 1691649141059_127.0.0.1_56530 disconnect, remove instances and subscribers
+
+2023-08-10 14:34:07,491 INFO Client connection 1691649140186_127.0.0.1_56528 disconnect, remove instances and subscribers
+
+2023-08-10 14:34:12,774 INFO Client connection 1691649252770_127.0.0.1_56576 connect
+
+2023-08-10 14:34:15,046 INFO Client connection 1691649255043_127.0.0.1_56587 connect
+
+2023-08-10 14:34:15,152 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}, 1691649255043_127.0.0.1_56587
+
+2023-08-10 14:40:39,207 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=5}, 1691649255043_127.0.0.1_56587
+
+2023-08-10 14:40:39,211 INFO Client connection 1691649255043_127.0.0.1_56587 disconnect, remove instances and subscribers
+
+2023-08-10 14:40:39,558 INFO Client connection 1691649252465_127.0.0.1_56575 disconnect, remove instances and subscribers
+
+2023-08-10 14:40:39,558 INFO Client connection 1691649252770_127.0.0.1_56576 disconnect, remove instances and subscribers
+
+2023-08-10 14:40:39,558 INFO Client connection 1691649251585_127.0.0.1_56573 disconnect, remove instances and subscribers
+
+2023-08-10 14:41:45,177 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 14:43:30,284 INFO Client connection 1691649810281_127.0.0.1_56770 connect
+
+2023-08-10 14:43:32,596 INFO Client connection 1691649812593_127.0.0.1_56781 connect
+
+2023-08-10 14:43:32,701 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691649812593_127.0.0.1_56781
+
+2023-08-10 14:43:35,237 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691649812593_127.0.0.1_56781
+
+2023-08-10 14:43:35,544 INFO Client connection 1691649812593_127.0.0.1_56781 disconnect, remove instances and subscribers
+
+2023-08-10 14:43:35,907 INFO Client connection 1691649809091_127.0.0.1_56767 disconnect, remove instances and subscribers
+
+2023-08-10 14:43:35,908 INFO Client connection 1691649810281_127.0.0.1_56770 disconnect, remove instances and subscribers
+
+2023-08-10 14:43:35,908 INFO Client connection 1691649809981_127.0.0.1_56769 disconnect, remove instances and subscribers
+
+2023-08-10 14:44:45,190 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 14:45:03,947 INFO Client connection 1691649903944_127.0.0.1_56814 connect
+
+2023-08-10 14:45:06,256 INFO Client connection 1691649906253_127.0.0.1_56825 connect
+
+2023-08-10 14:45:06,364 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691649906253_127.0.0.1_56825
+
+2023-08-10 14:45:06,997 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691649906253_127.0.0.1_56825
+
+2023-08-10 14:45:07,306 INFO Client connection 1691649906253_127.0.0.1_56825 disconnect, remove instances and subscribers
+
+2023-08-10 14:45:07,665 INFO Client connection 1691649903645_127.0.0.1_56813 disconnect, remove instances and subscribers
+
+2023-08-10 14:45:07,665 INFO Client connection 1691649902758_127.0.0.1_56811 disconnect, remove instances and subscribers
+
+2023-08-10 14:45:07,665 INFO Client connection 1691649903944_127.0.0.1_56814 disconnect, remove instances and subscribers
+
+2023-08-10 14:46:45,202 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 14:50:09,999 INFO Client change for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=2}, 192.168.202.1:8868#true
+
+2023-08-10 14:50:18,255 INFO Client connection 1691650218252_127.0.0.1_57045 connect
+
+2023-08-10 14:50:20,628 INFO Client connection 1691650220624_127.0.0.1_57057 connect
+
+2023-08-10 14:50:20,733 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691650220624_127.0.0.1_57057
+
+2023-08-10 14:50:21,920 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691650220624_127.0.0.1_57057
+
+2023-08-10 14:50:22,230 INFO Client connection 1691650220624_127.0.0.1_57057 disconnect, remove instances and subscribers
+
+2023-08-10 14:50:22,576 INFO Client connection 1691650217075_127.0.0.1_57042 disconnect, remove instances and subscribers
+
+2023-08-10 14:50:22,576 INFO Client connection 1691650218252_127.0.0.1_57045 disconnect, remove instances and subscribers
+
+2023-08-10 14:50:22,576 INFO Client connection 1691650217948_127.0.0.1_57044 disconnect, remove instances and subscribers
+
+2023-08-10 14:51:45,241 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 14:52:03,208 INFO Client change for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=3}, 192.168.202.1:8868#true
+
+2023-08-10 14:52:09,099 INFO Client connection 1691650329096_127.0.0.1_57104 connect
+
+2023-08-10 14:52:11,465 INFO Client connection 1691650331462_127.0.0.1_57115 connect
+
+2023-08-10 14:52:11,571 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691650331462_127.0.0.1_57115
+
+2023-08-10 14:52:13,757 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691650331462_127.0.0.1_57115
+
+2023-08-10 14:52:14,066 INFO Client connection 1691650331462_127.0.0.1_57115 disconnect, remove instances and subscribers
+
+2023-08-10 14:52:14,420 INFO Client connection 1691650327908_127.0.0.1_57101 disconnect, remove instances and subscribers
+
+2023-08-10 14:52:14,420 INFO Client connection 1691650329096_127.0.0.1_57104 disconnect, remove instances and subscribers
+
+2023-08-10 14:52:14,420 INFO Client connection 1691650328795_127.0.0.1_57103 disconnect, remove instances and subscribers
+
+2023-08-10 14:53:07,279 INFO Client change for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=4}, 192.168.202.1:8868#true
+
+2023-08-10 14:53:10,506 INFO Client connection 1691650390503_127.0.0.1_57142 connect
+
+2023-08-10 14:53:12,854 INFO Client connection 1691650392851_127.0.0.1_57153 connect
+
+2023-08-10 14:53:12,960 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}, 1691650392851_127.0.0.1_57153
+
+2023-08-10 14:53:13,275 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=3}, 1691650392851_127.0.0.1_57153
+
+2023-08-10 14:53:13,588 INFO Client connection 1691650392851_127.0.0.1_57153 disconnect, remove instances and subscribers
+
+2023-08-10 14:53:13,931 INFO Client connection 1691650389321_127.0.0.1_57139 disconnect, remove instances and subscribers
+
+2023-08-10 14:53:13,932 INFO Client connection 1691650390203_127.0.0.1_57141 disconnect, remove instances and subscribers
+
+2023-08-10 14:53:13,932 INFO Client connection 1691650390503_127.0.0.1_57142 disconnect, remove instances and subscribers
+
+2023-08-10 14:53:23,274 INFO Client connection 1691650403270_127.0.0.1_57164 connect
+
+2023-08-10 14:53:25,810 INFO Client connection 1691650405806_127.0.0.1_57176 connect
+
+2023-08-10 14:53:25,915 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}, 1691650405806_127.0.0.1_57176
+
+2023-08-10 14:53:26,215 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=5}, 1691650405806_127.0.0.1_57176
+
+2023-08-10 14:53:26,525 INFO Client connection 1691650405806_127.0.0.1_57176 disconnect, remove instances and subscribers
+
+2023-08-10 14:53:26,878 INFO Client connection 1691650401978_127.0.0.1_57161 disconnect, remove instances and subscribers
+
+2023-08-10 14:53:26,879 INFO Client connection 1691650402944_127.0.0.1_57163 disconnect, remove instances and subscribers
+
+2023-08-10 14:53:26,879 INFO Client connection 1691650403270_127.0.0.1_57164 disconnect, remove instances and subscribers
+
+2023-08-10 14:54:45,270 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 14:56:59,101 INFO Client connection 1691650617768_127.0.0.1_57224 disconnect, remove instances and subscribers
+
+2023-08-10 14:59:04,316 INFO Client connection 1691650744312_127.0.0.1_57291 connect
+
+2023-08-10 14:59:20,958 INFO Client connection 1691650760955_127.0.0.1_57304 connect
+
+2023-08-10 14:59:21,080 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691650760955_127.0.0.1_57304
+
+2023-08-10 14:59:21,503 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691650760955_127.0.0.1_57304
+
+2023-08-10 14:59:21,814 INFO Client connection 1691650760955_127.0.0.1_57304 disconnect, remove instances and subscribers
+
+2023-08-10 14:59:22,164 INFO Client connection 1691650743553_127.0.0.1_57290 disconnect, remove instances and subscribers
+
+2023-08-10 14:59:22,165 INFO Client connection 1691650744312_127.0.0.1_57291 disconnect, remove instances and subscribers
+
+2023-08-10 14:59:22,165 INFO Client connection 1691650734701_127.0.0.1_57288 disconnect, remove instances and subscribers
+
+2023-08-10 14:59:37,702 INFO Client connection 1691650777698_127.0.0.1_57325 connect
+
+2023-08-10 14:59:38,357 INFO Client connection 1691650776491_127.0.0.1_57318 disconnect, remove instances and subscribers
+
+2023-08-10 14:59:38,357 INFO Client connection 1691650777698_127.0.0.1_57325 disconnect, remove instances and subscribers
+
+2023-08-10 14:59:38,358 INFO Client connection 1691650777388_127.0.0.1_57324 disconnect, remove instances and subscribers
+
+2023-08-10 15:00:45,302 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 15:01:12,773 INFO Client connection 1691650872768_127.0.0.1_57360 connect
+
+2023-08-10 15:01:22,605 INFO Client connection 1691650872006_127.0.0.1_57359 disconnect, remove instances and subscribers
+
+2023-08-10 15:01:22,605 INFO Client connection 1691650858878_127.0.0.1_57346 disconnect, remove instances and subscribers
+
+2023-08-10 15:01:22,606 INFO Client connection 1691650872768_127.0.0.1_57360 disconnect, remove instances and subscribers
+
+2023-08-10 15:05:31,170 INFO Client connection 1691651131167_127.0.0.1_57498 connect
+
+2023-08-10 15:05:33,491 INFO Client connection 1691651133488_127.0.0.1_57509 connect
+
+2023-08-10 15:05:33,596 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691651133488_127.0.0.1_57509
+
+2023-08-10 15:05:33,895 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691651133488_127.0.0.1_57509
+
+2023-08-10 15:05:34,206 INFO Client connection 1691651133488_127.0.0.1_57509 disconnect, remove instances and subscribers
+
+2023-08-10 15:05:34,555 INFO Client connection 1691651129990_127.0.0.1_57495 disconnect, remove instances and subscribers
+
+2023-08-10 15:05:34,556 INFO Client connection 1691651130871_127.0.0.1_57497 disconnect, remove instances and subscribers
+
+2023-08-10 15:05:34,556 INFO Client connection 1691651131167_127.0.0.1_57498 disconnect, remove instances and subscribers
+
+2023-08-10 15:06:29,941 INFO Client connection 1691651189937_127.0.0.1_57542 connect
+
+2023-08-10 15:06:32,366 INFO Client connection 1691651192363_127.0.0.1_57553 connect
+
+2023-08-10 15:06:32,471 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}, 1691651192363_127.0.0.1_57553
+
+2023-08-10 15:06:34,674 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=3}, 1691651192363_127.0.0.1_57553
+
+2023-08-10 15:06:34,981 INFO Client connection 1691651192363_127.0.0.1_57553 disconnect, remove instances and subscribers
+
+2023-08-10 15:06:35,330 INFO Client connection 1691651185852_127.0.0.1_57538 disconnect, remove instances and subscribers
+
+2023-08-10 15:06:35,330 INFO Client connection 1691651189627_127.0.0.1_57541 disconnect, remove instances and subscribers
+
+2023-08-10 15:06:35,331 INFO Client connection 1691651189937_127.0.0.1_57542 disconnect, remove instances and subscribers
+
+2023-08-10 15:06:39,975 INFO Client connection 1691651199971_127.0.0.1_57566 connect
+
+2023-08-10 15:06:42,462 INFO Client connection 1691651202458_127.0.0.1_57577 connect
+
+2023-08-10 15:06:42,567 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}, 1691651202458_127.0.0.1_57577
+
+2023-08-10 15:06:45,614 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=5}, 1691651202458_127.0.0.1_57577
+
+2023-08-10 15:06:45,923 INFO Client connection 1691651202458_127.0.0.1_57577 disconnect, remove instances and subscribers
+
+2023-08-10 15:06:46,285 INFO Client connection 1691651198691_127.0.0.1_57560 disconnect, remove instances and subscribers
+
+2023-08-10 15:06:46,286 INFO Client connection 1691651199665_127.0.0.1_57565 disconnect, remove instances and subscribers
+
+2023-08-10 15:06:46,286 INFO Client connection 1691651199971_127.0.0.1_57566 disconnect, remove instances and subscribers
+
+2023-08-10 15:08:45,353 WARN namespace : public, [DEFAULT_GROUP@@BorrowService] services are automatically cleaned
+
+2023-08-10 15:11:16,185 INFO Client connection 1691651476181_127.0.0.1_58368 connect
+
+2023-08-10 15:11:16,293 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=0}, 1691651476181_127.0.0.1_58368
+
+2023-08-10 15:11:28,420 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=1}, 1691651476181_127.0.0.1_58368
+
+2023-08-10 15:11:28,425 INFO Client connection 1691651476181_127.0.0.1_58368 disconnect, remove instances and subscribers
+
+2023-08-10 15:11:28,771 INFO Client connection 1691651472383_127.0.0.1_58353 disconnect, remove instances and subscribers
+
+2023-08-10 15:11:28,771 INFO Client connection 1691651473270_127.0.0.1_58355 disconnect, remove instances and subscribers
+
+2023-08-10 15:12:21,085 INFO Client connection 1691651541082_127.0.0.1_58398 connect
+
+2023-08-10 15:12:23,665 INFO Client connection 1691651543661_127.0.0.1_58411 connect
+
+2023-08-10 15:12:23,769 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=2}, 1691651543661_127.0.0.1_58411
+
+2023-08-10 15:13:19,887 INFO Client connection 1691651599881_127.0.0.1_58431 connect
+
+2023-08-10 15:13:21,472 INFO Client connection 1691651601467_127.0.0.1_58454 connect
+
+2023-08-10 15:13:22,774 INFO Client connection 1691651602771_127.0.0.1_58469 connect
+
+2023-08-10 15:13:22,878 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=0}, 1691651602771_127.0.0.1_58469
+
+2023-08-10 15:13:23,043 INFO Client connection 1691651603039_127.0.0.1_58472 connect
+
+2023-08-10 15:13:24,224 INFO Client connection 1691651604220_127.0.0.1_58480 connect
+
+2023-08-10 15:13:24,328 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=1}, 1691651604220_127.0.0.1_58480
+
+2023-08-10 15:13:24,382 INFO Client connection 1691651604379_127.0.0.1_58487 connect
+
+2023-08-10 15:13:25,518 INFO Client connection 1691651605515_127.0.0.1_58495 connect
+
+2023-08-10 15:13:25,621 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=0}, 1691651605515_127.0.0.1_58495
+
+2023-08-10 15:13:26,694 INFO Client connection 1691651606691_127.0.0.1_58503 connect
+
+2023-08-10 15:13:26,797 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=1}, 1691651606691_127.0.0.1_58503
+
+2023-08-10 15:17:02,536 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=3}, 1691651543661_127.0.0.1_58411
+
+2023-08-10 15:17:02,540 INFO Client connection 1691651543661_127.0.0.1_58411 disconnect, remove instances and subscribers
+
+2023-08-10 15:17:02,885 INFO Client connection 1691651539889_127.0.0.1_58395 disconnect, remove instances and subscribers
+
+2023-08-10 15:17:02,885 INFO Client connection 1691651540791_127.0.0.1_58397 disconnect, remove instances and subscribers
+
+2023-08-10 15:17:02,886 INFO Client connection 1691651541082_127.0.0.1_58398 disconnect, remove instances and subscribers
+
+2023-08-10 15:17:07,245 INFO Client connection 1691651827241_127.0.0.1_58645 connect
+
+2023-08-10 15:17:09,768 INFO Client connection 1691651829765_127.0.0.1_58659 connect
+
+2023-08-10 15:17:09,872 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=4}, 1691651829765_127.0.0.1_58659
+
+2023-08-10 15:18:25,449 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=2}, 1691651602771_127.0.0.1_58469
+
+2023-08-10 15:18:25,453 INFO Client connection 1691651602771_127.0.0.1_58469 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,480 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=3}, 1691651604220_127.0.0.1_58480
+
+2023-08-10 15:18:25,486 INFO Client connection 1691651604220_127.0.0.1_58480 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,505 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=2}, 1691651605515_127.0.0.1_58495
+
+2023-08-10 15:18:25,510 INFO Client connection 1691651605515_127.0.0.1_58495 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,530 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=3}, 1691651606691_127.0.0.1_58503
+
+2023-08-10 15:18:25,535 INFO Client connection 1691651606691_127.0.0.1_58503 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,556 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=5}, 1691651829765_127.0.0.1_58659
+
+2023-08-10 15:18:25,561 INFO Client connection 1691651829765_127.0.0.1_58659 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,796 INFO Client connection 1691651599881_127.0.0.1_58431 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,796 INFO Client connection 1691651599435_127.0.0.1_58427 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,830 INFO Client connection 1691651601467_127.0.0.1_58454 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,830 INFO Client connection 1691651601003_127.0.0.1_58440 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,858 INFO Client connection 1691651603039_127.0.0.1_58472 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,858 INFO Client connection 1691651602624_127.0.0.1_58459 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,890 INFO Client connection 1691651604379_127.0.0.1_58487 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,890 INFO Client connection 1691651603975_127.0.0.1_58474 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,911 INFO Client connection 1691651826945_127.0.0.1_58644 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,911 INFO Client connection 1691651827241_127.0.0.1_58645 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:25,911 INFO Client connection 1691651826041_127.0.0.1_58642 disconnect, remove instances and subscribers
+
+2023-08-10 15:18:30,813 INFO Client connection 1691651910808_127.0.0.1_58706 connect
+
+2023-08-10 15:18:33,104 INFO Client connection 1691651913099_127.0.0.1_58729 connect
+
+2023-08-10 15:18:33,669 INFO Client connection 1691651913663_127.0.0.1_58734 connect
+
+2023-08-10 15:18:33,774 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=4}, 1691651913663_127.0.0.1_58734
+
+2023-08-10 15:18:35,104 INFO Client connection 1691651915100_127.0.0.1_58753 connect
+
+2023-08-10 15:18:36,514 INFO Client connection 1691651916509_127.0.0.1_58769 connect
+
+2023-08-10 15:18:36,618 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=6}, 1691651916509_127.0.0.1_58769
+
+2023-08-10 15:18:36,675 INFO Client connection 1691651916671_127.0.0.1_58770 connect
+
+2023-08-10 15:18:37,940 INFO Client connection 1691651917936_127.0.0.1_58791 connect
+
+2023-08-10 15:18:38,044 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=4}, 1691651917936_127.0.0.1_58791
+
+2023-08-10 15:18:38,102 INFO Client connection 1691651918097_127.0.0.1_58794 connect
+
+2023-08-10 15:18:39,200 INFO Client connection 1691651919196_127.0.0.1_58798 connect
+
+2023-08-10 15:18:39,303 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=5}, 1691651919196_127.0.0.1_58798
+
+2023-08-10 15:18:40,457 INFO Client connection 1691651920454_127.0.0.1_58810 connect
+
+2023-08-10 15:18:40,561 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=5}, 1691651920454_127.0.0.1_58810
+
+2023-08-10 15:21:55,303 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=6}, 1691651913663_127.0.0.1_58734
+
+2023-08-10 15:21:55,308 INFO Client connection 1691651913663_127.0.0.1_58734 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,330 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=7}, 1691651919196_127.0.0.1_58798
+
+2023-08-10 15:21:55,336 INFO Client connection 1691651919196_127.0.0.1_58798 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,356 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=6}, 1691651920454_127.0.0.1_58810
+
+2023-08-10 15:21:55,360 INFO Client connection 1691651920454_127.0.0.1_58810 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,382 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=7}, 1691651917936_127.0.0.1_58791
+
+2023-08-10 15:21:55,387 INFO Client connection 1691651917936_127.0.0.1_58791 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,411 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=7}, 1691651916509_127.0.0.1_58769
+
+2023-08-10 15:21:55,415 INFO Client connection 1691651916509_127.0.0.1_58769 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,650 INFO Client connection 1691651910377_127.0.0.1_58705 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,650 INFO Client connection 1691651910808_127.0.0.1_58706 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,679 INFO Client connection 1691651916237_127.0.0.1_58758 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,679 INFO Client connection 1691651916671_127.0.0.1_58770 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,704 INFO Client connection 1691651917698_127.0.0.1_58782 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,704 INFO Client connection 1691651918097_127.0.0.1_58794 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,734 INFO Client connection 1691651914615_127.0.0.1_58747 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,734 INFO Client connection 1691651915100_127.0.0.1_58753 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,778 INFO Client connection 1691651911626_127.0.0.1_58710 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,778 INFO Client connection 1691651912743_127.0.0.1_58727 disconnect, remove instances and subscribers
+
+2023-08-10 15:21:55,778 INFO Client connection 1691651913099_127.0.0.1_58729 disconnect, remove instances and subscribers
+
+2023-08-10 15:22:01,220 INFO Client connection 1691652121214_127.0.0.1_58985 connect
+
+2023-08-10 15:22:02,866 INFO Client connection 1691652122860_127.0.0.1_59005 connect
+
+2023-08-10 15:22:04,394 INFO Client connection 1691652124389_127.0.0.1_59024 connect
+
+2023-08-10 15:22:04,499 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=8}, 1691652124389_127.0.0.1_59024
+
+2023-08-10 15:22:05,308 INFO Client connection 1691652125303_127.0.0.1_59030 connect
+
+2023-08-10 15:22:05,896 INFO Client connection 1691652125891_127.0.0.1_59034 connect
+
+2023-08-10 15:22:05,956 INFO Client connection 1691652125951_127.0.0.1_59035 connect
+
+2023-08-10 15:22:05,998 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=8}, 1691652125891_127.0.0.1_59034
+
+2023-08-10 15:22:07,161 INFO Client connection 1691652127157_127.0.0.1_59058 connect
+
+2023-08-10 15:22:08,357 INFO Client connection 1691652128354_127.0.0.1_59069 connect
+
+2023-08-10 15:22:08,461 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BorrowService', ephemeral=true, revision=8}, 1691652128354_127.0.0.1_59069
+
+2023-08-10 15:22:08,620 INFO Client connection 1691652128616_127.0.0.1_59076 connect
+
+2023-08-10 15:22:08,724 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='BookService', ephemeral=true, revision=9}, 1691652128616_127.0.0.1_59076
+
+2023-08-10 15:22:09,698 INFO Client connection 1691652129695_127.0.0.1_59079 connect
+
+2023-08-10 15:22:09,803 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='UserService', ephemeral=true, revision=9}, 1691652129695_127.0.0.1_59079
+
+2023-08-10 15:39:02,089 INFO [AUTO-DELETE-IP] service: Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, ip: {"ip":"192.168.202.1","port":8868,"healthy":false,"cluster":"default","extendDatum":{"customInstanceId":"192.168.202.1#8868#default#SEATA_GROUP@@seata-server"},"lastHeartBeatTime":1691652912052,"metadataId":"192.168.202.1:8868:default"}
+
+2023-08-10 15:39:02,089 INFO Client remove for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=5}, 192.168.202.1:8868#true
+
+2023-08-10 15:39:02,522 INFO Client connection 192.168.202.1:8868#true disconnect, remove instances and subscribers
+
+2023-08-10 15:39:03,739 INFO Client connection 192.168.202.1:8868#true connect
+
+2023-08-10 15:39:03,739 INFO Client change for service Service{namespace='8ab31473-b8fb-47c7-a8ef-c55ff4127c28', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=6}, 192.168.202.1:8868#true
+
